@@ -1,0 +1,17 @@
+<!-- <p>
+  confirm-box works!
+
+  <ion-button (click)="closeModal()">closeModal</ion-button>
+</p>
+ -->
+<ion-input placeholder="Enter Input"></ion-input>
+<ion-row class="custom-shodow">
+  <ion-col padding>
+    <ion-button expand="block" fill="outline" (click)="cancel($event)">CANCEL </ion-button>
+  </ion-col>
+  <ion-col padding>
+    <ion-button expand="block" type="submit" (click)="validate($event)">
+      SUBMIT
+    </ion-button>
+  </ion-col>
+</ion-row>

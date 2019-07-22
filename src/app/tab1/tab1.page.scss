@@ -2,3 +2,29 @@
   max-height: 35vh;
   overflow: hidden;
 }
+
+ion-button.sb-btn-outline-info {
+  padding: 0;
+  border: none;
+  // --border-width: 2px;
+  // --border-style: none;
+  // --box-shadow: none;
+  // --background-activated: transparent;
+  // --background-focused: red;
+  // --background-hover: red;
+  // --color: red;
+  // --background: red;
+  // --color: #3880ff;
+  // --color-focused: #3880ff;
+--christ: red;
+  --border-color: var(--christ);
+  --background-color: $white;
+  --color: $btn-color;
+  --background-hover: darken($btn-color, 2%);
+  --background-activated: darken($btn-color, 8%) !important;
+  --background-focused: darken($btn-color, 8%);
+}
+
+.red-color {
+  color: red;
+}
